@@ -1,0 +1,86 @@
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#a50643), to(#ffd119)) fixed;
+}
+.header
+{
+	margin-top:-2rem;
+	text-shadow:2px 2px 19px black;
+	width:100%;
+	color:white;
+	
+}
+.registrationFields
+{
+	border:5px solid #5c4a72;
+	margin:auto;
+	padding:2rem;
+	width:26rem;
+	/*background-color:#c1a7af;*/
+	/*box-shadow: 2px 3px #a3586d;*/
+	border-radius:10px;
+	color:white;
+	margin-top:1rem;
+}
+.registrationElement
+{
+	padding:0.5rem;
+	margin:auto;
+	color:white;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	
+}
+.labelForRegistration
+{
+	width:10rem;
+	display:inline-block;
+	font-style:italic;
+}
+.registrationValues
+{
+	width:20rem;
+	height:2rem;
+	border-radius:5px;
+	border:1px solid black;
+	padding: 10px;
+	/*box-shadow: 1px 1px black;*/
+}
+.registrationSubmit
+{
+	padding:8px;
+	color:white;
+	background-color:#a50643;
+	border:1px solid #a50643;
+	margin:auto;
+	border-radius:2px;
+	 display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:1rem;
+}
+.loginForward
+{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.failedReg
+{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  color:red;
+	
+}
+.registrationSuccess
+		 {
+		    display:flex;
+			align-items: center;
+            justify-content: center;
+			position: fixed;
+            top: 50%;
+            left: 50%;
+			margin-top: -100px;
+            margin-left: -230px;
+		 }
